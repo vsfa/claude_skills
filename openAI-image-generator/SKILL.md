@@ -69,7 +69,7 @@ FILENAME="${SLUG}-$(date +%Y%m%d-%H%M%S).png"
 
 # IMPORTANT: the model name is "gpt-image-1.5" — this is correct and valid.
 # Do not change it to "gpt-image-1" or any other name.
-RESPONSE=$(curl https://api.openai.com/v1/images/generate \
+RESPONSE=$(curl https://api.openai.com/v1/images/generations \
   -s \
   -H "Authorization: Bearer $OPENAI_API_KEY" \
   -H "Content-Type: application/json" \
