@@ -10,3 +10,5 @@ If you want the skill to be used in a single project, copy it into the `.claude/
 `product-design-portfolio` - a skill that help you create your own portfolio website (html/css/js)
 
 `openAI-image-generator` - a skill that teaches the agent to use OpenAI image generation API
+
+`charles-schwab-market-data` - a skill that enables agent to pull market data from Charles Schwab if you have a Schwab account.
